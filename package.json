@@ -1,0 +1,29 @@
+{
+  "name": "BottleCount",
+  "version": "1.0.0",
+  "description": "A system to manager my bottle caps collection",
+  "main": "src/server.ts",
+  "repository": "https://github.com/RafaelMuniz94/BottleCount.git",
+  "author": "Ramunmi <raruznh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "run-dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore node_modules ./src/server.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.10",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "tsyringe": "^4.5.0",
+    "typeorm": "^0.2.32",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/node": "^15.0.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.1.6",
+    "tsconfig-paths": "^3.9.0"
+  }
+}
